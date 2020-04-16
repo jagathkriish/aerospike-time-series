@@ -1,0 +1,13 @@
+Aerospike POC results with a list
+
+Scenario:
+1) Save data of 30 days with 10,000 records per day - 39s 722ms
+2) Retrieve all data with 30 baseKeys - 3s 501ms
+
+Error:
+Null Pointer exception while data not exists with baseKey and mapKey.
+Screenshot attached.
+
+Environment:
+Macbook Air, aerospike vagrant VM spinned locally.
+All insertions are sequential.
